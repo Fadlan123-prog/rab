@@ -202,8 +202,8 @@
                               <div class="left-text">
                                 <h4>Fasilitas &amp; Program</h4>
                                 <p>Pernahkah teman – teman bermain berlibur sambil memecahkan 1 Games atau mungkin lebih, dengan kelompok entah itu teman keluarga atau rekan kerja, tetapi Games ini dipandu oleh Master Games yang sudah profesional sehingga Games yang teman – teman mainkan bersama kelompok itu memiliki manfaat karena setiap Games yang dimainkan memiliki tujuan tertentu.</p>
-                                <div class="ticks-list"><span><i class="fa fa-check"></i> Fasilitator</span> <span><i class="fa fa-check"></i> Game Master</span> <span><i class="fa fa-check"></i> Outbound Equipment</span>
-                                  <span><i class="fa fa-check"></i> Sound System</span> <span><i class="fa fa-check"></i> P3K</span> <span><i class="fa fa-check"></i> Air Mineral</span><span><i class="fa fa-check"></i> Games Activity</span><span><i class="fa fa-check"></i> Rotasi game</span><span><i class="fa fa-check"></i> The Best Team</span><span><i class="fa fa-check"></i> Final Project</span></div>
+                                <div class="ticks-list"><span><i class="fa fa-check"></i> Program Outbound</span> <span><i class="fa fa-check"></i> Ice Breaking</span> <span><i class="fa fa-check"></i> Fasilitator</span>
+                                  <span><i class="fa fa-check"></i> Game Master</span> <span><i class="fa fa-check"></i> Outbound Equipment</span> <span><i class="fa fa-check"></i> Sound System</span><span><i class="fa fa-check"></i> Air Mineral</span><span><i class="fa fa-check"></i> Standar P3K</span><span><i class="fa fa-check"></i> Holy Powder</span><span><i class="fa fa-check"></i> Smoke Bomb</span></div>
                                   <div class="border-first-button scroll-to-section">
                                     <a href="https://wa.me/628812315526?text=Hallo%20Rafting%20Adventure%20Bogor">Reservasi Sekarang</a>
                                   </div>
@@ -211,7 +211,7 @@
                             </div>
                             <div class="col-lg-6 align-self-center">
                               <div class="right-image">
-                                <img src="{{asset('assets/images/outbound.jpg')}}" alt="">
+                                <img src="{{asset('assets/images/gallery/outbound/inflatable-4.jpg')}}" alt="">
                               </div>
                             </div>
                           </div>
@@ -383,14 +383,19 @@
                                     alt="Boat on Calm Water" />
                             </div>
                             <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/outbound/IMG_6950.JPG') }}"
+                                class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                alt="Mountains in the Clouds" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/outbound/inflatable-6.JPG') }}"
+                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                    alt="Waves at Sea" />
+                            </div>
+                            <div class="carousel-item">
                                 <img src="{{ asset('assets/images/gallery/offroad/DSC_0211.JPG') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Wintry Mountain Landscape" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/images/gallery/outbound/IMG_6950.JPG') }}"
-                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
-                                    alt="Mountains in the Clouds" />
                             </div>
                             <div class="carousel-item">
                                 <img src="{{ asset('assets/images/gallery/paintball/DSC05505.JPG') }}"
@@ -402,25 +407,30 @@
 
                     <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/rafting/IMG_5516.JPG') }}"
+                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                    alt="Boat on Calm Water" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/outbound/DSC00040.JPG') }}"
+                                class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                alt="Wintry Mountain Landscape" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/paintball/DSC05520.JPG') }}"
+                                class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                alt="Mountains in the Clouds" />
+                            </div>
                             <div class="carousel-item active">
                                 <img src="{{ asset('assets/images/gallery/offroad/DSC_0017.JPG') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Yosemite National Park" />
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('assets/images/gallery/outbound/DSC00040.JPG') }}"
+                                <img src="{{ asset('assets/images/gallery/outbound/inflatable-5.JPG') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
-                                    alt="Wintry Mountain Landscape" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/images/gallery/paintball/DSC05520.JPG') }}"
-                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
-                                    alt="Mountains in the Clouds" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/images/gallery/rafting/IMG_5516.JPG') }}"
-                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
-                                    alt="Boat on Calm Water" />
+                                    alt="Waves at Sea" />
                             </div>
                         </div>
                     </div>
@@ -433,21 +443,26 @@
                                 <img src="{{ asset('assets/images/gallery/offroad/DSC_0028.JPG') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Mountains in the Clouds" />
-                            </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('assets/images/gallery/outbound/inflatable-4.jpg') }}"
+                                        class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                        alt="Waves at Sea" />
+                                </div>
                             <div class="carousel-item">
                                 <img src="{{ asset('assets/images/gallery/outbound/DSC00061.JPG') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Wintry Mountain Landscape" />
                             </div>
                             <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/rafting/IMG_5525.JPG') }}"
+                                class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                alt="Waves at Sea" />
+                            </div>
+                            <div class="carousel-item">
                                 <img src="{{ asset('assets/images/gallery/paintball/DSC05531.JPG') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Boat on Calm Water" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/images/gallery/rafting/IMG_5525.JPG') }}"
-                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
-                                    alt="Waves at Sea" />
                             </div>
                         </div>
                     </div>
@@ -471,6 +486,11 @@
                             </div>
                             <div class="carousel-item">
                                 <img src="{{ asset('assets/images/gallery/rafting/IMG_5555.JPG') }}"
+                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                    alt="Waves at Sea" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/outbound/inflatable-3.jpg') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Waves at Sea" />
                             </div>
@@ -501,6 +521,11 @@
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Boat on Calm Water" />
                             </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/outbound/inflatable-2.jpg') }}"
+                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                    alt="Waves at Sea" />
+                            </div>
                         </div>
                     </div>
 
@@ -523,6 +548,11 @@
                             </div>
                             <div class="carousel-item">
                                 <img src="{{ asset('assets/images/gallery/offroad/DSC_0116.JPG') }}"
+                                    class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
+                                    alt="Waves at Sea" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('assets/images/gallery/outbound/inflatable-1.jpg') }}"
                                     class="d-block w-100 shadow-1-strong rounded mb-4 carousel-image"
                                     alt="Waves at Sea" />
                             </div>
